@@ -1,0 +1,165 @@
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    border: 5;
+}  
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1100px;
+    height: 500px;
+}
+.number-1{
+    background-color: rgb(132, 155, 162);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 200px;
+        left: 295px;
+}
+.number-2{
+    background-color: rgb(132, 155, 162);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 200px;
+        left: 400px;
+}
+.number-3{
+    background-color: rgb(132, 155, 162);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 200px;
+        left: 505px;
+}
+.number-4{
+    background-color: rgb(132, 155, 162);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 240px;
+        left: 295px;
+}
+.number-5{
+    background-color: rgb(132, 155, 162);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 240px;
+        left: 400px;
+}
+.number-6{
+    background-color: rgb(132, 155, 162);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 240px;
+        left: 505px;
+}
+.number-7{
+    background-color: rgb(132, 155, 162);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 280px;
+        left: 295px;
+}
+.number-8{
+    background-color: rgb(132, 155, 162);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 280px;
+        left: 400px;
+}
+.number-9{
+    background-color: rgb(132, 155, 162);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 280px;
+        left: 505px;
+}
+.number-0{
+    background-color: rgb(132, 155, 162);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 320px;
+        left: 400px;
+}
+.AC{
+    background-color: rgb(220, 249, 3);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 320px;
+        left: 295px;
+}
+.plus{
+    background-color: rgb(79, 193, 100);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 200px;
+        left: 610px;
+}
+.minus{
+    background-color: rgb(79, 193, 100);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 240px;
+        left: 610px;
+}
+.divide{
+    background-color: rgb(79, 193, 100);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 280px;
+        left: 610px;
+}
+.multiplication{
+    background-color: rgb(79, 193, 100);
+        color: rgb(4, 0, 0);
+        height: 35px;
+        width: 100px;
+        top: 320px;
+        left: 610px;
+        font-size: 20px;  
+}
+.Equal{
+    background-color: rgb(79, 193, 100);
+        color: rgb(4, 0, 0);
+        height: 155px;
+        width: 100px;
+        top: 200px;
+        left: 715px;
+}
+.dot{
+    background-color: rgb(79, 193, 100);
+        color: rgba(4, 0, 0, 0.848);
+        height: 35px;
+        width: 100px;
+        top: 320px;
+        left: 505px;
+        font-size: 25px;
+}
+.box {
+    border: 2px solid black;   
+    background-color: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    border: 5;
+    height: 80px;
+    width: 515px;
+    top: 110px;
+    left: 296px;
+    font-size: 70px;       
+  }
