@@ -14,6 +14,7 @@ function number(number){
     }
 }
 
+//Clear all
 function ac(){
     equation = ""
     result = []
@@ -22,6 +23,7 @@ function ac(){
     document.querySelector('.box').innerHTML = equation;
 }
 
+//To print on the web page
 function printToBox(){
     document.querySelector('.box').innerHTML = checkLegal();
     document.querySelector('.box').innerHTML = answer;
@@ -38,6 +40,7 @@ function checkLegal(){
     checkPlusMInus()
 }
 
+//as the name of the function suggest here i check if the input is legal
 function checkSyntax(){
     for(let i = 0;i < result.length;i++){
         if(typeof result[i] === typeof "+"){
@@ -49,6 +52,11 @@ function checkSyntax(){
     }
 }
 
+/*
+The purpose of the function is to check if there is a multiplication and if there is then go to the number on the left and then
+ to the number on the right to multiply and then put it in the place of the multiplication so that it is an equation of just plus
+and minus
+ */ 
 function checkMultiplication(){
     let counter1 = ""
     let counter = ""
@@ -94,6 +102,11 @@ function checkMultiplication(){
     }
 }
 
+/*
+The purpose of the function is to check if there is a division and if there is then go to the number on the left and then
+ to the number on the right to divide and check the legality of no division by zero and then put it in the place of the division
+  so that it is an equation of only plus and minus
+*/
 function checkDivide(){
     let counter1 = ""
     let counter = ""
@@ -144,6 +157,8 @@ function checkDivide(){
     }
 }
 
+//The purpose of the function is to check if there is a plus or minus and if there is, go to the number on the right
+// and add to the final result
 function checkPlusMInus(){
     let counter = ""
 
